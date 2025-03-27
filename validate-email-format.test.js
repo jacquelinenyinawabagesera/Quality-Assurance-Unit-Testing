@@ -1,4 +1,4 @@
 const {isValidEmail} = require("./validate-email-format");
-test('if an email has the right syntax', ()=>{
+test('Validates an email as user@gmail.com', ()=>{
     expect(isValidEmail('daniella@gmail.com')).toBe(true);
 });
