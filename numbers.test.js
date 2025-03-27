@@ -1,5 +1,4 @@
-// const { default: expect } = require("expect");
-// const { default: expect } = require("expect");
+
 const { default: expect } = require('expect')
 const {isEven} = require('./numbers')
 
